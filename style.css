@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 25vw;
+    max-width: 100%;
+    height: 70vh;
+    max-height: 100%;
+    border-radius: 5%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 110px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.child-wrapper {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.child-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: hsl(178, 100%, 50%);
+    font-size: 20px;
+}
+
+h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+}
+
+ a {
+     color: white;
+     font-weight: 600;
+     font-size: 22px;
+     margin-top: 30px;
+     margin-bottom: 15px;
+     list-style-type: none;
+     text-decoration: none;
+ }
+
+ p { 
+     font-size: 18px;
+     color: hsl(215, 51%, 70%);
+     margin-bottom: 15px;
+ }
+
+.cube {
+    width: 20vw;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.avatar_ {
+    width: 2vw;
+    max-width: 100%;
+}
+
+.logo_ {
+    max-width: 100%;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .container {
+        width: 25vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .container {
+        width: 35vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        width: 40vw;
+        max-width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .container {
+        width: 50vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .container {
+        width: 60vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .container {
+        width: 70vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 250px) {
+
+    .container {
+        width: 80vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 150px) {
+
+    .container {
+        width: 80vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 100px) {
+
+    .container {
+        width: 100vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 50px) {
+
+    .container {
+        width: 110vw;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 20px) {
+
+    .container {
+        width: 100vw;
+        max-width: 100%;
+    }
+
+}
+
+
+
